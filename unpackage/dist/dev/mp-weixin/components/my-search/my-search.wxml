@@ -1,0 +1,1 @@
+<view class="my-search-container"><view class="my-search"><image class="icon" src="/static/images/search.png" mode></image><text class="placeholder">{{placeholderText}}</text></view></view>

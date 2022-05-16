@@ -1,0 +1,1 @@
+<view class="hot-container"><image class="logo" src="/static/images/logo.png" mode="aspectFit"></image><view class="search"><my-search vue-id="0e4143a4-1" placeholderText="uniapp 自定义搜索" bind:__l="__l"></my-search></view><my-tabs vue-id="0e4143a4-2" tabData="{{tabData}}" defaultIndex="{{currentIndex}}" bind:__l="__l"></my-tabs></view>
