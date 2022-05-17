@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "hot-list-rank": "/components/hot-list-rank/hot-list-rank"
+  },
+  "component": true
+}

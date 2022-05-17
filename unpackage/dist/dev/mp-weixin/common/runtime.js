@@ -105,11 +105,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/my-search/my-search":1,"components/my-tabs/my-tabs":1};
+/******/ 		var cssChunks = {"components/hot-list-item/hot-list-item":1,"components/my-search/my-search":1,"components/my-tabs/my-tabs":1,"components/hot-list-rank/hot-list-rank":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/my-search/my-search":"components/my-search/my-search","components/my-tabs/my-tabs":"components/my-tabs/my-tabs"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/hot-list-item/hot-list-item":"components/hot-list-item/hot-list-item","components/my-search/my-search":"components/my-search/my-search","components/my-tabs/my-tabs":"components/my-tabs/my-tabs","components/hot-list-rank/hot-list-rank":"components/hot-list-rank/hot-list-rank"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

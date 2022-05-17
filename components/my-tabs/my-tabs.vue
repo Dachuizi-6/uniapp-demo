@@ -91,6 +91,9 @@ export default {
     defaultIndex: {
       handler(val) {
         this.activeIdx = val;
+
+        // swiper滑动改变滑块的位置
+        this.tabToWhere();
       },
       immediate: true,
     },

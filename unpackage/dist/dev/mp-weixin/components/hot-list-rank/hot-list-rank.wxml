@@ -1,0 +1,1 @@
+<view class="hot-list-rank-container"><image class="hot-list-rank-bg" src="{{getRankBg}}"></image><text class="{{['hot-list-rank-text',(ranking<=3)?'text-white':'']}}">{{ranking}}</text></view>
